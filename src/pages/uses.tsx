@@ -11,7 +11,7 @@ function Home() {
 	return (
 		<>
 			<SeoHead
-				title="Jacob Herper Uses ... - Front-End Software Engineer"
+				title="Daniel Lin Uses ... - Front-End Software Engineer"
 				description="This is a list of tech equipment I currently use for my day-to-day work as a software engineer."
 			/>
 

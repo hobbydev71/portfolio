@@ -14,14 +14,14 @@ exports[`Footer renders correctly 1`] = `
         <span>
           © 
           2021
-           Jacob Herper
+           Daniel Lin
         </span>
         <ul
           class="styles__StyledSocialIcons-sc-15vq785-0 iHrrTj"
         >
           <li>
             <a
-              href="https://github.com/jakeherp"
+              href="https://github.com/hobbdev71"
               rel="noopener noreferrer"
               target="_blank"
               title="Github"
@@ -31,30 +31,10 @@ exports[`Footer renders correctly 1`] = `
           </li>
           <li>
             <a
-              href="https://twitter.com/jakeherp"
-              rel="noopener noreferrer"
-              target="_blank"
-              title="Twitter"
-            >
-              <test-file-stub />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/jacobherper"
+              href="https://www.linkedin.com/in/daniel-lin-21a513121"
               rel="noopener noreferrer"
               target="_blank"
               title="LinkedIn"
-            >
-              <test-file-stub />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://instagram.com/jakeherp"
-              rel="noopener noreferrer"
-              target="_blank"
-              title="Instagram"
             >
               <test-file-stub />
             </a>

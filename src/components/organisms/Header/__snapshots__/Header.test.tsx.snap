@@ -13,7 +13,7 @@ exports[`Header renders correctly 1`] = `
           <a
             href="/"
           >
-            Jacob Herper
+            Daniel Lin
           </a>
         </h1>
         <div

@@ -20,14 +20,14 @@ function Home({ skills }: IProps) {
 	return (
 		<>
 			<SeoHead
-				title="Jacob Herper - Front-End Software Engineer"
+				title="Daniel Lin - Front-End Software Engineer"
 				description="Front-End Software Engineer with a focus on JavaScript and React.js. I have more than 10 years experience working in software engineering."
 			/>
 
 			<Container>
 				<Headline>
 					Hey, I&apos;m
-					<wbr /> Jacob Herper <span>👋</span>
+					<wbr /> Daniel Lin <span>👋</span>
 				</Headline>
 				<p>
 					I am a passionate Software Engineer, specialised in front-end
@@ -51,7 +51,7 @@ function Home({ skills }: IProps) {
 				<p>
 					P.S. this website is open-source and available on{' '}
 					<a
-						href="https://github.com/jakeherp/portfolio"
+						href="https://github.com/hobbydev71/portfolio"
 						title="Link to Github repository"
 						target="_blank"
 						rel="noopener noreferrer"

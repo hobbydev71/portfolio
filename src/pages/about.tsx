@@ -27,12 +27,12 @@ function About({ jobs, education }: IProps) {
 	return (
 		<>
 			<SeoHead
-				title="About Jacob Herper - Front-End Software Engineer"
+				title="About Daniel Lin - Front-End Software Engineer"
 				description="As a passionate front-end developer, I create amazing websites and web apps to make the internet a better place."
 			/>
 
 			<Container>
-				<Headline>Hey, I&apos;m Jacob Herper</Headline>
+				<Headline>Hey, I&apos;m Daniel Lin</Headline>
 				<h3>A senior software engineer from England</h3>
 				<p>
 					As a passionate front-end developer, I create amazing websites and web

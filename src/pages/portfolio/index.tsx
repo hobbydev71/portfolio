@@ -10,7 +10,7 @@ export default function Blog({ portfolioItems }: any) {
 	return (
 		<>
 			<SeoHead
-				title="Jacob Herper's Portfolio - Front-End Software Engineer"
+				title="Daniel Lin's Portfolio - Front-End Software Engineer"
 				description="Front-End Software Engineer with a focus on JavaScript and React.js. I have more than 10 years experience working in software engineering."
 			/>
 			<Container>

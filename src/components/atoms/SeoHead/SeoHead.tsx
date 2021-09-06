@@ -17,7 +17,7 @@ export interface HeadProps {
 const SeoHead: FC<HeadProps> = ({
 	title,
 	description,
-	author = 'Jacob Herper',
+	author = 'Danie Lin',
 	keywords,
 	image = 'https://res.cloudinary.com/jacobherper/image/upload/c_fill,g_north,h_1080,w_1920/v1587315694/herper-io.png ',
 	meta,
