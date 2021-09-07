@@ -3,14 +3,14 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 export default (req: NextApiRequest, res: NextApiResponse) => {
 	const positions = [
 		{
-			company: 'Holland & Barrett',
-			website: 'https://www.hollandandbarrett.com/',
-			jobTitle: 'Software Development Engineer 2',
-			startDate: '2020-08-10',
+			company: 'Focus Market',
+			website: 'https://focus.market/',
+			jobTitle: 'Software Development Engineer',
+			startDate: '2020-01-03',
 			endDate: null,
-			place: 'Nuneaton, England, United Kingdom',
-			description: `* Joined Holland & Barrett as a senior software engineer, first with front-end expertise in the fulfilment squad (alongside six back-end engineers)
-* Led hiring process of several further UI engineers across multiple squads
+			place: 'London, United Kingdom',
+			description: `* Joined Focus Market as a senior software engineer, first with front-end expertise in the fulfilment squad.
+* Developed the Smartcontract using Solidity.
 * Tech lead developing a custom-built customer services portal based on React and Next.js using TypeScript and Redux, retiring a third-party solution, saving a 6-digit sum in licence fees
 * Increased non-existent test-coverage to 90+%
 * Introduced e2e tests using Cypress`,
@@ -18,20 +18,22 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 				'TypeScript',
 				'React',
 				'Next.js',
+				'Web3 JS',
 				'Redux',
+				'Solidity',
+				'SmartContract',
 				'GraphQL',
 				'REST API',
 				'Jest',
-				'Cypress',
 			],
 		},
 		{
-			company: 'Dennis Publishing',
-			website: 'https://www.dennis.co.uk/',
-			jobTitle: 'Senior Front-End Engineer',
-			startDate: '2019-10-07',
-			endDate: '2020-08-07',
-			place: 'London, England, United Kingdom',
+			company: 'Accenture',
+			website: 'https://www.accenture.com/us-en',
+			jobTitle: 'Senior Full Stack Engineer',
+			startDate: '2020-05-05',
+			endDate: '2020-12-24',
+			place: 'Michigan, United States',
 			description: `* Developed web applications using React, JavaScript (ES6), GraphQL and Sass
 * Tech lead for the rebuild of site applications, liaising between engineering and product teams
 * Optimised performance and accessibility of React applications
@@ -52,12 +54,12 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 			],
 		},
 		{
-			company: 'Raconteur',
-			website: 'https://www.raconteur.net/',
+			company: 'Finxflo',
+			website: 'https://www.finxflo.com/',
 			jobTitle: 'Front-End Web Developer',
 			startDate: '2019-01-15',
-			endDate: '2019-10-01',
-			place: 'London, England, United Kingdom',
+			endDate: '2020-04-30',
+			place: 'Singapore,  Singapore',
 			description: `* Joined as first JavaScript developer to lead the move away from WordPress-based monolithic architectures to more robust and modern React-based systems
 * Developed React web applications using TypeScript, Next.js, Gatsby, GraphQL and Styled-Components with global state management through Context API
 * Worked with WordPress as a headless CMS using GraphQL and REST APIs
@@ -70,18 +72,19 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 				'React',
 				'Gatsby',
 				'Next.js',
+				'Web3 JS',
 				'GraphQL',
 				'REST API',
 				'Styled-Components',
 			],
 		},
 		{
-			company: 'The Specialist Works',
-			website: 'https://www.thespecialistworks.com/',
-			jobTitle: 'Front-End Developer',
-			startDate: '2017-12-04',
-			endDate: '2019-01-01',
-			place: 'London, England, United Kingdom',
+			company: 'Wraith & CO',
+			website: 'https://fba.support/',
+			jobTitle: 'Senior FullStack Developer',
+			startDate: '2014-05-04',
+			endDate: '2018-12-31',
+			place: 'New York, United States',
 			description: `* Tech lead in design and development of new website following brand guidelines based on WordPress, PHP, HTML5, CSS and JavaScript
 * Orchestrating web development work between London and Atlanta offices
 * Collaborating with teams in Beijing, Dublin, New York and Bonn offices to develop custom experiences for clients across the world
@@ -90,8 +93,8 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 * Development of PWA (React) for an event with 250+ attendees
 * Collaborated with internal creative agency to deliver assets for pitches`,
 			technologies: [
-				'JavaScript',
-				'PHP',
+				'React JS',
+				'Ruby on Rails',
 				'jQuery',
 				'React',
 				'Sass',
@@ -100,11 +103,11 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 			],
 		},
 		{
-			company: 'Creativ Agency',
-			jobTitle: 'Director of Engineering & Founder',
-			startDate: '2018-05-01',
-			endDate: '2019-01-01',
-			place: 'London, England, United Kingdom',
+			company: 'Oasis Web Asia',
+			jobTitle: 'FullStack Developer',
+			startDate: '2011-11-03',
+			endDate: '2014-03-31',
+			place: 'Singapore, Singapore',
 			description: `* Development of web applications for small and medium-sized businesses using JavaScript, React, PHP, Sass, HTML5, WordPress, Drupal and different e-commerce solutions
 * Specialised in bespoke client solutions for London-based startups
 * Design of digital assets and print products
@@ -121,70 +124,6 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 				'Drupal',
 				'Shopify',
 				'Magento',
-			],
-		},
-		{
-			company: 'Immovato GmbH',
-			website: 'https://www.immovato.de/',
-			jobTitle: 'Co-Founder & CTO',
-			startDate: '2014-04-01',
-			endDate: null,
-			place: 'Wiesbaden, Germany',
-			description: `* Built a web app to revolutionise the real estate sector in Germany
-* Developed Immovato from the first concept to release of MVP
-* Managed two developers (front-end and back-end) in the development of our application, initially based on Angular (JavaScript) and Laravel (PHP)
-* Moved tech stack to MERN (MongoDB, Express.js, React, Node.js) for an improved performance and DX`,
-			technologies: [
-				'Angular',
-				'React',
-				'Node.js',
-				'Express',
-				'MongoDB',
-				'MySQL',
-				'Sass',
-			],
-		},
-		{
-			company: 'Self-employed',
-			jobTitle: 'Full Stack Developer & Designer',
-			startDate: '2009-01-15',
-			endDate: '2017-03-31',
-			place: 'London, England, United Kingdom',
-			description: `* Developed websites and web apps for small to medium-sized businesses using WordPress, PHP, HTML5, CSS3, Sass, JavaScript
-* Designed digital and print assets for several clients using Adobe CC (Illustrator, InDesign, Photoshop)
-* Managed freelancers for outsourced projects`,
-			technologies: [
-				'Angular',
-				'React',
-				'Node.js',
-				'Express',
-				'MongoDB',
-				'MySQL',
-				'Sass',
-			],
-		},
-		{
-			company: 'ASA GmbH',
-			website: 'https://www.asa-products.com/',
-			jobTitle: 'Group Creative Director',
-			startDate: '2008-06-01',
-			endDate: '2014-10-31',
-			place: 'Mainz, Germany',
-			description: `* Started working for ASA as a web designer and developer during final years of college, building and maintaining e-commerce websites and product landing pages
-* First insights into day-to-day operations of e-commerce business (B2B and B2C)
-* Design and conception of new products, packaging, brochures, advertising material
-* Design and execution of international trade shows and B2B events
-* Launch of UK branch of ASA Europe in Chelmsford, Essex
-* Market research and legal compliance analysis for the trade of tobacco products in the United Kingdom, meetings with UK Trade & Investment and HMRC to explore importing of restricted goods
-* Built retail business to become highest-grossing of its kind in the UK within 12 months`,
-			technologies: [
-				'PHP',
-				'HTML',
-				'CSS',
-				'JavaScript',
-				'MS SQL',
-				'MySQL',
-				'Sass',
 			],
 		},
 	];

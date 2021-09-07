@@ -41,7 +41,7 @@ function About({ jobs, education }: IProps) {
 					experience in serverless technologies.
 				</p>
 				<p>
-					I am {differenceInCalendarYears(new Date(), new Date('1990-11-06'))}{' '}
+					I am {differenceInCalendarYears(new Date(), new Date('1989-11-20'))}{' '}
 					years old and have been a web developer for as long as I can think.
 					The technologies I work with are JavaScript, HTML and CSS with a focus
 					on the frameworks React.js, Gatsby, Next.js, Node and Express. I use
@@ -49,13 +49,7 @@ function About({ jobs, education }: IProps) {
 					problems I come across.
 				</p>
 				<p>
-					When I am not writing code I love to spend time with my wife and 3
-					year old daughter at home in London or travelling around the world. We
-					are quite a multi-cultural family with me having grown up in Germany
-					🇩🇪 and my wife being from Mexico 🇲🇽, which is why we raise our
-					daughter trilingual. I myself speak five languages (some better than
-					others). Furthermore I enjoy cooking fresh food when I come home after
-					a long day at the office.
+					When I am not writing code I love to spend time playing football and tennis with friends.
 				</p>
 
 				<h2>Experience</h2>
