@@ -7,7 +7,7 @@ export interface ISkills {
 	technologies: string[];
 	frameworks: string[];
 	databases: string[];
-	cms: string[];
+	blockchain: string[];
 	various: string[];
 	design: string[];
 	softSkills: string[];

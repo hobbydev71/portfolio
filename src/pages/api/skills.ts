@@ -5,21 +5,16 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 		'JavaScript',
 		'TypeScript',
 		'GraphQL',
-		'Redux',
 		'RESTful APIs',
-		'HTML',
-		'CSS',
 	];
 	const frameworks = ['React', 'Vue.js', 'Next.js', 'Gatsby', 'Svelte'];
 	const databases = ['MySQL', 'MongoDB', 'Firebase', 'PostgreSQL'];
-	const cms = ['WordPress', 'Drupal', 'Contentful', 'Sanity.io'];
-	const various = ['SEO', 'Scrum', 'Agile', 'Jira', 'Confluence'];
+	const blockchain = ['Solidity', 'Rust', 'SmartContract', 'Web3 JS', 'Ether JS', 'Solana'];
+	const various = ['Scrum', 'Agile', 'Jira', 'Confluence'];
 	const design = [
-		'Adobe Illustrator',
-		'Adobe InDesign',
 		'Adobe Photoshop',
+		'Adobe XD',
 		'Sketch',
-		'Zeplin',
 		'Figma',
 	];
 	const softSkills = [
@@ -35,27 +30,12 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 		{
 			language: 'English',
 			level: 'bilingual',
-			icon: '🇬🇧',
+			icon: 'us',
 		},
 		{
-			language: 'German',
+			language: 'Mandarian',
 			level: 'bilingual',
-			icon: '🇩🇪',
-		},
-		{
-			language: 'Spanish',
-			level: 'intermediate',
-			icon: '🇲🇽',
-		},
-		{
-			language: 'Italian',
-			level: 'basic',
-			icon: '🇮🇹',
-		},
-		{
-			language: 'Russian',
-			level: 'basic',
-			icon: '🇷🇺',
+			icon: 'zh',
 		},
 	];
 
@@ -63,7 +43,7 @@ export default (req: NextApiRequest, res: NextApiResponse) => {
 		technologies,
 		frameworks,
 		databases,
-		cms,
+		blockchain,
 		various,
 		design,
 		softSkills,

@@ -27,18 +27,19 @@ function About({ jobs, education }: IProps) {
 	return (
 		<>
 			<SeoHead
-				title="About Daniel Lin - Front-End Software Engineer"
-				description="As a passionate front-end developer, I create amazing websites and web apps to make the internet a better place."
+				title="About Daniel Lin - Full Stack Software Engineer"
+				description="As a passionate Full Stack developer, I create amazing websites and web apps to make the internet a better place."
 			/>
 
 			<Container>
 				<Headline>Hey, I&apos;m Daniel Lin</Headline>
-				<h3>A senior software engineer from England</h3>
+				<h3>A senior software engineer from United States</h3>
 				<p>
 					As a passionate front-end developer, I create amazing websites and web
 					apps to make the internet a better place. I am an advocate for web
 					performance and accessibility as well as a JAMstack enthusiast with
 					experience in serverless technologies.
+					As a blockchain engineer, I develop the NFT marketplaces and Dex.
 				</p>
 				<p>
 					I am {differenceInCalendarYears(new Date(), new Date('1989-11-20'))}{' '}

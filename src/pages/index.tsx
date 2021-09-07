@@ -13,9 +13,9 @@ interface IProps {
 }
 
 function Home({ skills }: IProps) {
-	const { technologies, frameworks } = skills;
+	const { technologies, frameworks, blockchain } = skills;
 
-	const talkAbout = [...technologies, ...frameworks];
+	const talkAbout = [...technologies, ...frameworks, ...blockchain];
 
 	return (
 		<>
